@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página em HTML 5</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo(a) à minha página</h1>
+    </header>
+
+    <main>
+        <!--Colocar figura-->
+        <figure>
+            <!--Integração da imagem-->
+            <img src="metaverso.webp" alte="Imagem de uma pessoa interagindo no Metaverso">
+            <!--Descrição da Imagem-->
+            <figcaption>Pessoa interagindo no Metaverso</figcaption>
+        </figure>
+
+        <br>
+
+        <!--Áudio-->
+        <audio controls>
+            <source src="town-10169.mp3" type="audio/mpeg">
+        </audio>
+
+        <br>
+
+        <!--Video-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3zoVhCNjDFY?si=z_qh7FGOaAsEWRe5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <video controls>
+            <source src="Metaverso.mp4" type="video/mp4">
+        </video>
+
+        <br>        
+        <br>        
+
+        <!--forms-->
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="e-mail">E-mail:</label>
+            <input type="e-mail" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+</body>
+</html>
